@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta name="author" content="Mohammad Hamd">
+        <meta name="description" content="This webpage contains what would be the second page of the CodeRIT challenge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="/Page2/img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="/Page2/css/page2.css" />
+        
+        <title>CodeRIT Challenge 1</title>  
+    </head>
+    <body>
+        <div class="page2-nav-bar">
+            <img src="/Page2/img/page2-CodeRIT-logo.png" width="181" height="99" alt="CodeRIT Logo" hspace="10"/>
+            <button class="page2-nav-button"><img src="/Page2/img/page2-nav-bar.png" alt="Nav-bar" ></button>
+        </div>
+        <div class="page2-mainframe">
+            <section id="page2-description">
+                <h1>Challenge 1</h1>
+                <p class="page2-question">Hey!! Guys, try answering some of these tricky but  interesting question to get yourself pumped up for more fun.</p>
+                
+            </section>
+        
+        
+        <section id="page2-question">
+            <h2>Question 1</h2> 
+            <div class="page2-question-div">
+                <p class="page2-question">
+                    Vitae sapien pellentesque habitant morbi  nunc. Viverra aliquet  porttitor rhoncus.
+                </p>
+
+                <form>
+                    <div>
+                        <label><input type="radio" name="question1" value="1">Option 1</label><br>
+                        <label><input type="radio" name="question1" value="2">Option 2</label><br>
+                        <label><input type="radio" name="question1" value="3">Option 3</label><br>
+                        <label><input type="radio" name="question1" value="4">Option 4</label><br>
+                    </div>
+                </form>
+                <br>
+                <div class="page2-controls">
+                    <button><img src="/Page2/img/page2-back-button.png" alt="back"></button>
+                    <button><img src="/Page2/img/page2-next-button.png" alt="next"></button>
+                    <button class="page2-submit-button" type="submit">SUBMIT</button>
+                </div>
+            </div>
+        </section>
+
+        
+    </div>
+    <section class="page2-manage-question">
+        <button class="page2-end-button">End Challenge</button>
+        <div class="page2-question-numbers">
+            <button class="page2-question-button"><p >1</p></button>
+            <button class="page2-question-button"><p >2</p></button>
+            <button class="page2-question-button"><p >3</p></button>
+            <button class="page2-question-button"><p >4</p></button>
+            <button class="page2-question-button"><p >5</p></button>
+            <button class="page2-question-button"><p >6</p></button>
+            <button class="page2-question-button"><p >7</p></button>
+            <button class="page2-question-button"><p >8</p></button>
+            <button class="page2-question-button"><p >9</p></button>
+            <button class="page2-question-button"><p >10</p></button>
+            <button class="page2-question-button"><p >11</p></button>
+            <button class="page2-question-button"><p >12</p></button>
+            <button class="page2-question-button"><p >13</p></button>
+            <button class="page2-question-button"><p >14</p></button>
+            <button class="page2-question-button"><p >15</p></button>
+        </div>
+    </section>
+    
+    <script>
+        // JavaScript to handle horizontal scrolling with mouse wheel
+        const section = document.querySelector('.page2-question-numbers');
+    
+        section.addEventListener('wheel', (event) => {
+          event.preventDefault();
+          section.scrollLeft += event.deltaY;
+        });
+      </script>
+    </body>
+</html>
